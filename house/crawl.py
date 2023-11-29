@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 
 query = "Selenium的使用"
 url = "https://www.bing.com/search?q={0}".format(query)
-url_house = "https://hz.newhouse.fang.com/loupan/201018690.htm"
+url_house = "https://hz.newhouse.fang.com/loupan/2010187106.htm"
 
 web_options = webdriver.ChromeOptions()
 web_options.add_argument("--headless")
